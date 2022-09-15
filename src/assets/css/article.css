@@ -1,0 +1,39 @@
+.post-list-thumb {
+    animation: main .6s;
+    will-change: transform;
+    float: left;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0 1px 30px -4px var(--post-list-thumb);
+    opacity: 0
+}
+
+body {
+    margin: 0;
+    font: 300 17px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+    color: var(--theme-skin);
+    font-size: 15px;
+    line-height: 1.5;
+    background: #0000;
+    background-attachment: fixed;
+    background-position: center;
+    scrollbar-width: 6px;
+    font-weight: var(--global-font-weight)
+}
+
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--theme-skin-matching, #ffe066);
+    outline: 0;
+    -webkit-transition: color .2s ease-out, border .2s ease-out, opacity .2s ease-out;
+    -moz-transition: color .2s ease-out, border .2s ease-out, opacity .2s ease-out;
+    transition: color .2s ease-out, border .2s ease-out, opacity .2s ease-out
+}
+
