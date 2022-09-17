@@ -23,7 +23,7 @@
                   <h3>{{item.articleTitle}}</h3>
                 </a>
                 <div class="post-meta"> <span><i class="iconfont icon-attention"></i>{{item.heat}} 热度</span> <span
-                    class="comments-number"> <i class="iconfont icon-mark"></i> <a href="javascript:;">1 评论</a> </span>
+                    class="comments-number"> <i class="iconfont icon-mark"></i> <a href="javascript:;">{{item.count}} 评论</a> </span>
                   <span @click="go(item.category.id,'cate',item.category.categoryName)"><i
                       class="iconfont icon-file"></i> <a> {{item.category.categoryName}} </a> </span>
                 </div>
