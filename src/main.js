@@ -37,8 +37,12 @@ VueRouter.prototype.push = function push(location) {
 import service from '@/plugin/service'
 Vue.prototype.service = service
 
-import {Header} from 'element-ui';
+import {Header,Message} from 'element-ui';
 Vue.use(Header)
+Message.install = function (Vue, options) {
+  Vue.prototype.$message = Message
+}
+Vue.use(Message)
 
 Vue.config.productionTip = false
 

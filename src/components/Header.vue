@@ -1,7 +1,7 @@
 <template>
     <div id="head">
         <header>
-            <a href="#" class="logo">knowei</a>
+            <a href="/" class="logo">knowei</a>
             <ul>
                 <li><a @click="goHome"><svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-shouye"></use>
